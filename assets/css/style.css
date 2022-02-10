@@ -14,7 +14,6 @@ header {
   width: 100%;
   z-index: 1;
   background-color: rgba(255, 255, 255);
-  min-width: 640px;
 }
 
 .hero {
@@ -402,4 +401,18 @@ footer:before {
 .social-right a i {
   font-size: 200%;
   margin: 20px 20px;
+}
+
+@media screen and (max-width: 400px) {
+}
+.courses__title {
+  padding-top: 300px;
+}
+
+.signup__title {
+  padding-top: 300px;
+}
+
+.contactus__title {
+  padding-top: 300px;
 }
